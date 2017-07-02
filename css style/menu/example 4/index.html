@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>menu</title>
+    <title>Menu</title>
     <link rel="stylesheet" type="text/css" href="min.style.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu-toggle').click(function(){
+                $('.menu-toggle').toggleClass('active')
+            })
+        })
+    </script>
 </head>
 <body>
-    <div class="nav">
-        <label class="menu_label" for="toggle">&#9776;</label>
-        <input type="checkbox" id="toggle"/>
-        <div class="menu">
-            <a href="#">Business</a>
-            <a href="#">Services</a>
-            <a href="#">Learn More</a>
-            <span>Free trial</span>
-        </div>
+    <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
     </div>
 </body>
 </html>
