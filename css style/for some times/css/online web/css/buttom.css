@@ -18,7 +18,7 @@
     font-size: 20px;
     font-family: sans-serif;
     border: 2px solid transparent;
-/*    cursor: pointer;*/
+    cursor: pointer;
     background: none;
 }
 /*    shadow for text in btn*/
@@ -33,12 +33,13 @@
 .btn-red {
     border-color: red;
     color: red;
-    -webkit-transition: color .3s ease, border .3s ease;
-    -moz-transition: color .3s ease, border .3s ease;
-    -o-transition: color .3s ease, border .3s ease;
-    transition: color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-red:hover {
+    color: red;
     border-color: firebrick;
     color: firebrick;
 }
@@ -47,10 +48,10 @@
 .btn-blue {
     border-color: #3498db;
     color: deepskyblue;
-    -webkit-transition: color .3s ease, border .3s ease;
-    -moz-transition: color .3s ease, border .3s ease;
-    -o-transition: color .3s ease, border .3s ease;
-    transition: color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-blue:hover {
     color: #2980b9;
@@ -61,10 +62,10 @@
 .btn-green {
     border-color: #1abc9c;
     color: #1abc9c;
-    -webkit-transition: color .3s ease, border .3s ease;
-    -moz-transition: color .3s ease, border .3s ease;
-    -o-transition: color .3s ease, border .3s ease;
-    transition: color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-green:hover {
     color: #16a085;
@@ -75,24 +76,24 @@
 .btn-orange {
     border-color: #f1c40f;
     color: #f1c40f;
-    -webkit-transition: color .3s ease, border .3s ease;
-    -moz-transition: color .3s ease, border .3s ease;
-    -o-transition: color .3s ease, border .3s ease;
-    transition: color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-orange:hover {
     color: #f39c12;
     border-color: #f39c12;
 }
-/*--=====================================================--*/
+/*--=====================================================--*/ 
 /*    button violet*/
 .btn-violet {
     border-color: #9b59b6;
     color: #9b59b6;
-    -webkit-transition: color .3s ease, border .3s ease;
-    -moz-transition: color .3s ease, border .3s ease;
-    -o-transition: color .3s ease, border .3s ease;
-    transition: color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-violet:hover {
     color: #8e44ad;
@@ -103,10 +104,10 @@
 .btn-grey {
     border-color: #95a5a6;
     color: #95a5a6;
-    -webkit-transition: color .3s ease, border .3s ease;
-    -moz-transition: color .3s ease, border .3s ease;
-    -o-transition: color .3s ease, border .3s ease;
-    transition: color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-grey:hover {
     color: #7f8c8d;
@@ -117,10 +118,10 @@
 .btn-alizarin {
     border-color: #e74c3c;
     color: #e74c3c;
-    -webkit-transition: color .3s ease, border .3s ease;
-    -moz-transition: color .3s ease, border .3s ease;
-    -o-transition: color .3s ease, border .3s ease;
-    transition: color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-alizarin:hover {
     color: #c0392b;
@@ -131,10 +132,10 @@
 .btn-emerald {
     border-color: #2ecc71;
     color: #2ecc71;
-    -webkit-transition: color .3s ease, border .3s ease;
-    -moz-transition: color .3s ease, border .3s ease;
-    -o-transition: color .3s ease, border .3s ease;
-    transition: color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-emerald:hover {
     color: #27ae60;
@@ -145,10 +146,10 @@
 .btn-clouds {
     border-color: #ecf0f1;
     color: #ecf0f1;
-    -webkit-transition: color .3s ease, border .3s ease;
-    -moz-transition: color .3s ease, border .3s ease;
-    -o-transition: color .3s ease, border .3s ease;
-    transition: color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-clouds:hover {
     color: #bdc3c7;
@@ -159,10 +160,10 @@
 .btn-EE7738 {
     border-color: #EE7738;
     color: #EE7738;
-    -webkit-transition: color .3s ease, border .3s ease;
-    -moz-transition: color .3s ease, border .3s ease;
-    -o-transition: color .3s ease, border .3s ease;
-    transition: color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-EE7738:hover {
     color: #F59D2A;
@@ -173,10 +174,10 @@
 .btn-3BB4C1 {
     border-color: #3BB4C1;
     color: #3BB4C1;
-    -webkit-transition: color .3s ease, border .3s ease;
-    -moz-transition: color .3s ease, border .3s ease;
-    -o-transition: color .3s ease, border .3s ease;
-    transition: color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-3BB4C1:hover {
     color: #048998;
@@ -187,10 +188,10 @@
 .btn-FFDD67 {
     border-color: #FFDD67;
     color: #FFDD67;
-    -webkit-transition: color .3s ease, border .3s ease;
-    -moz-transition: color .3s ease, border .3s ease;
-    -o-transition: color .3s ease, border .3s ease;
-    transition: color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-FFDD67:hover {
     color: #FFCD38;
@@ -198,8 +199,8 @@
 }
 /*--=====================================================--*/
 /*
-    Style for button bt exampel
-
+    Style for button bt exampel 
+        
         <a href="#" class"btn btn-red-bg">some text</a>
         <div href="#" class"btn btn-red-bg">some text</div>
         <button href="#" class"btn btn-red-bg">some text</button>*/
@@ -212,10 +213,10 @@
     -moz-text-shadow: 0 2px 2px #4a4a4a;
     -o-text-shadow: 0 2px 2px #4a4a4a;
     text-shadow: 0 2px 2px #4a4a4a;
-    -webkit-transition: background .3s ease, color .3s ease, border .3s ease;
-    -moz-transition: background .3s ease, color .3s ease, border .3s ease;
-    -o-transition: background .3s ease, color .3s ease, border .3s ease;
-    transition: background .3s ease, color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-red-bg:hover {
     background: none;
@@ -232,10 +233,10 @@
     -o-text-shadow: 0 2px 2px #4a4a4a;
     text-shadow: 0 2px 2px #4a4a4a;
     color: #fff;
-    -webkit-transition: background .3s ease, color .3s ease, border .3s ease;
-    -moz-transition: background .3s ease, color .3s ease, border .3s ease;
-    -o-transition: background .3s ease, color .3s ease, border .3s ease;
-    transition: background .3s ease, color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-blue-bg:hover {
     color: #2980b9;
@@ -252,10 +253,10 @@
     -o-text-shadow: 0 2px 2px #4a4a4a;
     text-shadow: 0 2px 2px #4a4a4a;
     color: #fff;
-    -webkit-transition: background .3s ease, color .3s ease, border .3s ease;
-    -moz-transition: background .3s ease, color .3s ease, border .3s ease;
-    -o-transition: background .3s ease, color .3s ease, border .3s ease;
-    transition: background .3s ease, color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-green-bg:hover {
     color: #16a085;
@@ -272,17 +273,17 @@
     -o-text-shadow: 0 2px 2px #4a4a4a;
     text-shadow: 0 2px 2px #4a4a4a;
     color: #fff;
-    -webkit-transition: background .3s ease, color .3s ease, border .3s ease;
-    -moz-transition: background .3s ease, color .3s ease, border .3s ease;
-    -o-transition: background .3s ease, color .3s ease, border .3s ease;
-    transition: background .3s ease, color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-orange-bg:hover {
     color: #f39c12;
     border-color: #f39c12;
     background: none;
 }
-/*--=====================================================--*/
+/*--=====================================================--*/ 
 /*    button violet*/
 .btn-violet-bg {
     border-color: #9b59b6;
@@ -292,10 +293,10 @@
     -o-text-shadow: 0 2px 2px #4a4a4a;
     text-shadow: 0 2px 2px #4a4a4a;
     color: #fff;
-    -webkit-transition: background .3s ease, color .3s ease, border .3s ease;
-    -moz-transition: background .3s ease, color .3s ease, border .3s ease;
-    -o-transition: background .3s ease, color .3s ease, border .3s ease;
-    transition: background .3s ease, color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-violet-bg:hover {
     color: #8e44ad;
@@ -312,10 +313,10 @@
     -o-text-shadow: 0 2px 2px #4a4a4a;
     text-shadow: 0 2px 2px #4a4a4a;
     color: #fff;
-    -webkit-transition: background .3s ease, color .3s ease, border .3s ease;
-    -moz-transition: background .3s ease, color .3s ease, border .3s ease;
-    -o-transition: background .3s ease, color .3s ease, border .3s ease;
-    transition: background .3s ease, color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-grey-bg:hover {
     color: #7f8c8d;
@@ -332,10 +333,10 @@
     -o-text-shadow: 0 2px 2px #4a4a4a;
     text-shadow: 0 2px 2px #4a4a4a;
     color: #fff;
-    -webkit-transition: background .3s ease, color .3s ease, border .3s ease;
-    -moz-transition: background .3s ease, color .3s ease, border .3s ease;
-    -o-transition: background .3s ease, color .3s ease, border .3s ease;
-    transition: background .3s ease, color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-alizarin-bg:hover {
     color: #c0392b;
@@ -352,10 +353,10 @@
     -o-text-shadow: 0 2px 2px #4a4a4a;
     text-shadow: 0 2px 2px #4a4a4a;
     color: #fff;
-    -webkit-transition: background .3s ease, color .3s ease, border .3s ease;
-    -moz-transition: background .3s ease, color .3s ease, border .3s ease;
-    -o-transition: background .3s ease, color .3s ease, border .3s ease;
-    transition: background .3s ease, color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-emerald-bg:hover {
     color: #27ae60;
@@ -372,10 +373,10 @@
     -o-text-shadow: 0 2px 2px #4a4a4a;
     text-shadow: 0 2px 2px #4a4a4a;
     color: #4a4a4a;
-    -webkit-transition: background .3s ease, color .3s ease, border .3s ease;
-    -moz-transition: background .3s ease, color .3s ease, border .3s ease;
-    -o-transition: background .3s ease, color .3s ease, border .3s ease;
-    transition: background .3s ease, color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-clouds-bg:hover {
     color: #bdc3c7;
@@ -392,10 +393,10 @@
     -o-text-shadow: 0 2px 2px #4a4a4a;
     text-shadow: 0 2px 2px #4a4a4a;
     color: #fff;
-    -webkit-transition: background .3s ease, color .3s ease, border .3s ease;
-    -moz-transition: background .3s ease, color .3s ease, border .3s ease;
-    -o-transition: background .3s ease, color .3s ease, border .3s ease;
-    transition: background .3s ease, color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-EE7738-bg:hover {
     color: #F59D2A;
@@ -412,10 +413,10 @@
     -o-text-shadow: 0 2px 2px #4a4a4a;
     text-shadow: 0 2px 2px #4a4a4a;
     color: #fff;
-    -webkit-transition: background .3s ease, color .3s ease, border .3s ease;
-    -moz-transition: background .3s ease, color .3s ease, border .3s ease;
-    -o-transition: background .3s ease, color .3s ease, border .3s ease;
-    transition: background .3s ease, color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-3BB4C1-bg:hover {
     color: #048998;
@@ -432,20 +433,20 @@
     -o-text-shadow: 0 2px 2px #4a4a4a;
     text-shadow: 0 2px 2px #4a4a4a;
     color: #fff;
-    -webkit-transition: background .3s ease, color .3s ease, border .3s ease;
-    -moz-transition: background .3s ease, color .3s ease, border .3s ease;
-    -o-transition: background .3s ease, color .3s ease, border .3s ease;
-    transition: background .3s ease, color .3s ease, border .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 .btn-FFDD67-bg:hover {
     color: #FFCD38;
     border-color: #FFCD38;
     background: none;
-}
+} 
 /*--=====================================================--*/
 /*
-    Style for button bt exampel
-
+    Style for button bt exampel 
+        
             <div class="btn btn-clouds-skew">
                 <div class="right"></div>
                 <div class="left"></div>
@@ -455,7 +456,6 @@
 .btn-red-skew {
     border-color: red;
     color: red;
-    background: none;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -517,7 +517,6 @@
 .btn-blue-skew {
     border-color: deepskyblue;
     color: deepskyblue;
-    background: none;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -563,7 +562,6 @@
 .btn-green-skew {
     border-color: #1abc9c;
     color: #1abc9c;
-    background: none;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -609,7 +607,6 @@
 .btn-orange-skew {
     border-color: #f1c40f;
     color: #f1c40f;
-    background: none;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -655,7 +652,6 @@
 .btn-violet-skew {
     border-color: #9b59b6;
     color: #9b59b6;
-    background: none;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -701,7 +697,6 @@
 .btn-grey-skew {
     border-color: #95a5a6;
     color: #95a5a6;
-    background: none;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -747,7 +742,6 @@
 .btn-alizarin-skew {
     border-color: #e74c3c;
     color: #e74c3c;
-    background: none;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -793,7 +787,6 @@
 .btn-emerald-skew {
     border-color: #2ecc71;
     color: #2ecc71;
-    background: none;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -839,7 +832,6 @@
 .btn-EE7738-skew {
     border-color: #e67e22;
     color: #e67e22;
-    background: none;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -885,7 +877,6 @@
 .btn-3BB4C1-skew {
     border-color: #3BB4C1;
     color: #3BB4C1;
-    background: none;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -931,7 +922,6 @@
 .btn-FFDD67-skew {
     border-color: #FFDD67;
     color: #FFDD67;
-    background: none;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -977,7 +967,6 @@
 .btn-clouds-skew {
     border-color: #ecf0f1;
     color: #ecf0f1;
-    background: none;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -1020,7 +1009,7 @@
 }
 /*--=====================================================--*/
 /*
-    Style for button exampel
+    Style for button exampel 
             <div class="btn btn-red-checkmark">
                 <i class="ion-checkmark-round"></i>
                 <span>some text</span>
@@ -1042,7 +1031,7 @@
     font-size: 20px;
     font-family: sans-serif;
     border: 2px solid transparent;
-/*    cursor: pointer;*/
+    cursor: pointer;
     background: none;
     overflow: hidden;
 }
@@ -1051,7 +1040,7 @@
 /*--=====================================================--*/
 .btn-red-checkmark {
     border-color: red;
-
+    
 }
 .btn-red-checkmark i, .btn-red-checkmark span {
     position: absolute;
@@ -1083,7 +1072,7 @@
     -moz-transition: top .3s;
     -o-transition: top .3s;
     -o-transition: top .3s;
-}
+} 
 .btn-red-checkmark:hover i {
     top: 0;
 }
@@ -1124,7 +1113,7 @@
     -moz-transition: top .3s;
     -o-transition: top .3s;
     -o-transition: top .3s;
-}
+} 
 .btn-blue-headphone:hover i {
     top: 0;
 }
@@ -1165,7 +1154,7 @@
     -moz-transition: top .3s;
     -o-transition: top .3s;
     -o-transition: top .3s;
-}
+} 
 .btn-green-coffee:hover i {
     top: 0;
 }
@@ -1206,7 +1195,7 @@
     -moz-transition: top .3s;
     -o-transition: top .3s;
     -o-transition: top .3s;
-}
+} 
 .btn-orange-leaf:hover i {
     top: 0;
 }
@@ -1247,7 +1236,7 @@
     -moz-transition: top .3s;
     -o-transition: top .3s;
     -o-transition: top .3s;
-}
+} 
 .btn-violet-earth:hover i {
     top: 0;
 }
@@ -1288,7 +1277,7 @@
     -moz-transition: top .3s;
     -o-transition: top .3s;
     -o-transition: top .3s;
-}
+} 
 .btn-grey-happy:hover i {
     top: 0;
 }
@@ -1329,7 +1318,7 @@
     -moz-transition: top .3s;
     -o-transition: top .3s;
     -o-transition: top .3s;
-}
+} 
 .btn-alizarin-cog-outline:hover i {
     top: 0;
 }
@@ -1370,7 +1359,7 @@
     -moz-transition: top .3s;
     -o-transition: top .3s;
     -o-transition: top .3s;
-}
+} 
 .btn-emerald-heart:hover i {
     top: 0;
 }
@@ -1411,7 +1400,7 @@
     -moz-transition: top .3s;
     -o-transition: top .3s;
     -o-transition: top .3s;
-}
+} 
 .btn-EE7738-hammer:hover i {
     top: 0;
 }
@@ -1452,7 +1441,7 @@
     -moz-transition: top .3s;
     -o-transition: top .3s;
     -o-transition: top .3s;
-}
+} 
 .btn-3BB4C1-pizza:hover i {
     top: 0;
 }
@@ -1493,7 +1482,7 @@
     -moz-transition: top .3s;
     -o-transition: top .3s;
     -o-transition: top .3s;
-}
+} 
 .btn-FFDD67-download:hover i {
     top: 0;
 }
@@ -1534,7 +1523,7 @@
     -moz-transition: top .3s;
     -o-transition: top .3s;
     transition: top .3s;
-}
+} 
 .btn-ecf0f1-bug:hover i {
     top: 0;
 }
@@ -2422,7 +2411,7 @@
 .btn-red-shadow:before {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 150px;
     height: 20px;
     background: rgba(255, 255, 255, 0.39);
     -webkit-transform: rotate(30deg);
@@ -2436,7 +2425,7 @@
     transition: left .5s ease;
 }
 .btn-red-shadow:hover:before {
-    left: -100%;
+    left: -130%;
 }
 /*--=====================================================--*/
 .btn-blue-shadow {
@@ -2452,7 +2441,7 @@
 .btn-blue-shadow:before {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 150px;
     height: 20px;
     background: rgba(255, 255, 255, 0.39);
     -webkit-transform: rotate(30deg);
@@ -2466,7 +2455,7 @@
     transition: left .5s ease;
 }
 .btn-blue-shadow:hover:before {
-    left: -100%;
+    left: -130%;
 }
 /*--=====================================================--*/
 .btn-green-shadow {
@@ -2482,7 +2471,7 @@
 .btn-green-shadow:before {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 150px;
     height: 20px;
     background: rgba(255, 255, 255, 0.39);
     -webkit-transform: rotate(30deg);
@@ -2496,7 +2485,7 @@
     transition: left .5s ease;
 }
 .btn-green-shadow:hover:before {
-    left: -100%;
+    left: -130%;
 }
 /*--=====================================================--*/
 .btn-orange-shadow {
@@ -2512,7 +2501,7 @@
 .btn-orange-shadow:before {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 150px;
     height: 20px;
     background: rgba(255, 255, 255, 0.39);
     -webkit-transform: rotate(30deg);
@@ -2526,7 +2515,7 @@
     transition: left .5s ease;
 }
 .btn-orange-shadow:hover:before {
-    left: -100%;
+    left: -130%;
 }
 /*--=====================================================--*/
 .btn-violet-shadow {
@@ -2542,7 +2531,7 @@
 .btn-violet-shadow:before {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 150px;
     height: 20px;
     background: rgba(255, 255, 255, 0.39);
     -webkit-transform: rotate(30deg);
@@ -2556,7 +2545,7 @@
     transition: left .5s ease;
 }
 .btn-violet-shadow:hover:before {
-    left: -100%;
+    left: -130%;
 }
 /*--=====================================================--*/
 .btn-grey-shadow {
@@ -2572,7 +2561,7 @@
 .btn-grey-shadow:before {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 150px;
     height: 20px;
     background: rgba(255, 255, 255, 0.39);
     -webkit-transform: rotate(30deg);
@@ -2586,7 +2575,7 @@
     transition: left .5s ease;
 }
 .btn-grey-shadow:hover:before {
-    left: -100%;
+    left: -130%;
 }
 /*--=====================================================--*/
 .btn-alizarin-shadow {
@@ -2602,7 +2591,7 @@
 .btn-alizarin-shadow:before {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 150px;
     height: 20px;
     background: rgba(255, 255, 255, 0.39);
     -webkit-transform: rotate(30deg);
@@ -2616,7 +2605,7 @@
     transition: left .5s ease;
 }
 .btn-alizarin-shadow:hover:before {
-    left: -100%;
+    left: -130%;
 }
 /*--=====================================================--*/
 .btn-emerald-shadow {
@@ -2632,7 +2621,7 @@
 .btn-emerald-shadow:before {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 150px;
     height: 20px;
     background: rgba(255, 255, 255, 0.39);
     -webkit-transform: rotate(30deg);
@@ -2646,7 +2635,7 @@
     transition: left .5s ease;
 }
 .btn-emerald-shadow:hover:before {
-    left: -100%;
+    left: -130%;
 }
 /*--=====================================================--*/
 .btn-clouds-shadow {
@@ -2662,7 +2651,7 @@
 .btn-clouds-shadow:before {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 150px;
     height: 20px;
     background: rgba(255, 255, 255, 0.39);
     -webkit-transform: rotate(30deg);
@@ -2676,7 +2665,7 @@
     transition: left .5s ease;
 }
 .btn-clouds-shadow:hover:before {
-    left: -100%;
+    left: -130%;
 }
 /*--=====================================================--*/
 .btn-EE7738-shadow {
@@ -2692,7 +2681,7 @@
 .btn-EE7738-shadow:before {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 150px;
     height: 20px;
     background: rgba(255, 255, 255, 0.39);
     -webkit-transform: rotate(30deg);
@@ -2706,7 +2695,7 @@
     transition: left .5s ease;
 }
 .btn-EE7738-shadow:hover:before {
-    left: -100%;
+    left: -130%;
 }
 /*--=====================================================--*/
 .btn-3BB4C1-shadow {
@@ -2722,7 +2711,7 @@
 .btn-3BB4C1-shadow:before {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 150px;
     height: 20px;
     background: rgba(255, 255, 255, 0.39);
     -webkit-transform: rotate(30deg);
@@ -2736,7 +2725,7 @@
     transition: left .5s ease;
 }
 .btn-3BB4C1-shadow:hover:before {
-    left: -100%;
+    left: -130%;
 }
 /*--=====================================================--*/
 .btn-FFDD67-shadow {
@@ -2752,7 +2741,7 @@
 .btn-FFDD67-shadow:before {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 150px;
     height: 20px;
     background: rgba(255, 255, 255, 0.39);
     -webkit-transform: rotate(30deg);
@@ -2766,6 +2755,213 @@
     transition: left .5s ease;
 }
 .btn-FFDD67-shadow:hover:before {
-    left: -100%;
+    left: -130%;
 }
 /*--=====================================================--*/
+/*--=====================================================--*/
+/*--    btn style border not before this is on hover     --*/
+/*--                  new style this is my               --*/
+/*--=====================================================--*/
+.btn-red-border {
+    width: 140px;
+    border-color: red;
+    color: red;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-red-border:hover {
+    border: 1px solid firebrick;
+    font-size: 18px;
+    color: firebrick;
+}
+/*--=====================================================--*/
+.btn-blue-border {
+    width: 140px;
+    border-color: #3498db;
+    color: #3498db;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-blue-border:hover {
+    border: 1px solid #2980b9;
+    font-size: 18px;
+    color: #2980b9;
+}
+/*--=====================================================--*/
+.btn-green-border {
+    width: 140px;
+    border-color: #1abc9c;
+    color: #1abc9c;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-green-border:hover {
+    border: 1px solid #16a085;
+    font-size: 18px;
+    color: #16a085;
+}
+/*--=====================================================--*/
+.btn-orange-border {
+    width: 140px;
+    border-color: #f1c40f;
+    color: #f1c40f;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-orange-border:hover {
+    border: 1px solid #f39c12;
+    font-size: 18px;
+    color: #f39c12;
+}
+/*--=====================================================--*/
+.btn-violet-border {
+    width: 140px;
+    border-color: #9b59b6;
+    color: #9b59b6;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-violet-border:hover {
+    border: 1px solid #8e44ad;
+    font-size: 18px;
+    color: #8e44ad;
+}
+/*--=====================================================--*/
+.btn-grey-border {
+    width: 140px;
+    border-color: #95a5a6;
+    color: #95a5a6;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-grey-border:hover {
+    border: 1px solid #7f8c8d;
+    font-size: 18px;
+    color: #7f8c8d;
+}
+/*--=====================================================--*/
+.btn-alizarin-border {
+    width: 140px;
+    border-color: #e74c3c;
+    color: #e74c3c;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-alizarin-border:hover {
+    border: 1px solid #c0392b;
+    font-size: 18px;
+    color: #c0392b;
+}
+/*--=====================================================--*/
+.btn-emerald-border {
+    width: 140px;
+    border-color: #2ecc71;
+    color: #2ecc71;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-emerald-border:hover {
+    border: 1px solid #27ae60;
+    font-size: 18px;
+    color: #27ae60;
+}
+/*--=====================================================--*/
+.btn-clouds-border {
+    width: 140px;
+    border-color: #ecf0f1;
+    color: #ecf0f1;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-clouds-border:hover {
+    border: 1px solid #bdc3c7;
+    font-size: 18px;
+    color: #bdc3c7;
+}
+/*--=====================================================--*/
+.btn-EE7738-border {
+    width: 140px;
+    border-color: #EE7738;
+    color: #EE7738;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-EE7738-border:hover {
+    border: 1px solid #F59D2A;
+    font-size: 18px;
+    color: #F59D2A;
+}
+/*--=====================================================--*/
+.btn-3BB4C1-border {
+    width: 140px;
+    border-color: #3BB4C1;
+    color: #3BB4C1;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-3BB4C1-border:hover {
+    border: 1px solid #048998;
+    font-size: 18px;
+    color: #048998;
+}
+/*--=====================================================--*/
+.btn-FFDD67-border {
+    width: 140px;
+    border-color: #FFDD67;
+    color: #FFDD67;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-FFDD67-border:hover {
+    border: 1px solid #FFCD38;
+    font-size: 18px;
+    color: #FFCD38;
+}

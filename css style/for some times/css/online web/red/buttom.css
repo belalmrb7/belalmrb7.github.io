@@ -2758,3 +2758,210 @@
     left: -130%;
 }
 /*--=====================================================--*/
+/*--=====================================================--*/
+/*--    btn style border not before this is on hover     --*/
+/*--                  new style this is my               --*/
+/*--=====================================================--*/
+.btn-red-border {
+    width: 140px;
+    border-color: red;
+    color: red;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-red-border:hover {
+    border: 1px solid firebrick;
+    font-size: 18px;
+    color: firebrick;
+}
+/*--=====================================================--*/
+.btn-blue-border {
+    width: 140px;
+    border-color: #3498db;
+    color: #3498db;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-blue-border:hover {
+    border: 1px solid #2980b9;
+    font-size: 18px;
+    color: #2980b9;
+}
+/*--=====================================================--*/
+.btn-green-border {
+    width: 140px;
+    border-color: #1abc9c;
+    color: #1abc9c;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-green-border:hover {
+    border: 1px solid #16a085;
+    font-size: 18px;
+    color: #16a085;
+}
+/*--=====================================================--*/
+.btn-orange-border {
+    width: 140px;
+    border-color: #f1c40f;
+    color: #f1c40f;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-orange-border:hover {
+    border: 1px solid #f39c12;
+    font-size: 18px;
+    color: #f39c12;
+}
+/*--=====================================================--*/
+.btn-violet-border {
+    width: 140px;
+    border-color: #9b59b6;
+    color: #9b59b6;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-violet-border:hover {
+    border: 1px solid #8e44ad;
+    font-size: 18px;
+    color: #8e44ad;
+}
+/*--=====================================================--*/
+.btn-grey-border {
+    width: 140px;
+    border-color: #95a5a6;
+    color: #95a5a6;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-grey-border:hover {
+    border: 1px solid #7f8c8d;
+    font-size: 18px;
+    color: #7f8c8d;
+}
+/*--=====================================================--*/
+.btn-alizarin-border {
+    width: 140px;
+    border-color: #e74c3c;
+    color: #e74c3c;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-alizarin-border:hover {
+    border: 1px solid #c0392b;
+    font-size: 18px;
+    color: #c0392b;
+}
+/*--=====================================================--*/
+.btn-emerald-border {
+    width: 140px;
+    border-color: #2ecc71;
+    color: #2ecc71;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-emerald-border:hover {
+    border: 1px solid #27ae60;
+    font-size: 18px;
+    color: #27ae60;
+}
+/*--=====================================================--*/
+.btn-clouds-border {
+    width: 140px;
+    border-color: #ecf0f1;
+    color: #ecf0f1;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-clouds-border:hover {
+    border: 1px solid #bdc3c7;
+    font-size: 18px;
+    color: #bdc3c7;
+}
+/*--=====================================================--*/
+.btn-EE7738-border {
+    width: 140px;
+    border-color: #EE7738;
+    color: #EE7738;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-EE7738-border:hover {
+    border: 1px solid #F59D2A;
+    font-size: 18px;
+    color: #F59D2A;
+}
+/*--=====================================================--*/
+.btn-3BB4C1-border {
+    width: 140px;
+    border-color: #3BB4C1;
+    color: #3BB4C1;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-3BB4C1-border:hover {
+    border: 1px solid #048998;
+    font-size: 18px;
+    color: #048998;
+}
+/*--=====================================================--*/
+.btn-FFDD67-border {
+    width: 140px;
+    border-color: #FFDD67;
+    color: #FFDD67;
+    font-size: 20px;
+    -webkit-transition: .3s font-size linear, color .3s linear;
+    -moz-transition: .3s font-size linear, color .3s linear;
+    -o-transition: .3s font-size linear, color .3s linear;
+    transition: .3s font-size linear, color .3s linear;
+    text-align: center;
+}
+.btn-FFDD67-border:hover {
+    border: 1px solid #FFCD38;
+    font-size: 18px;
+    color: #FFCD38;
+}
