@@ -1,0 +1,216 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background: url('bg.png');
+    background-size: cover;
+}
+nav {
+    width: 100%;
+    height: 100px;
+/*    background: rgba(0, 0, 0, 0.29);*/
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+}
+nav > .menu_f {
+    list-style: none;
+    width: 850px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    margin: 0;
+    padding: 0;
+}
+nav > .menu_f li {
+    float: left;
+    margin: 5px;
+}
+nav > .menu_f li a {
+    width: 160px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    background: white;
+    border-radius: 16px;
+    transition: .2s ease-in-out;
+}
+nav > .menu_f li a i {
+    padding-left: 8px;
+}
+nav > .menu_f li a:hover {
+    background: rgba(88, 42, 212, 0.80);
+    color: white;
+}
+nav > .menu_f .drop {
+/*    background: red;*/
+    position: relative;
+}
+nav > .menu_f .drop .down {
+    position: absolute;
+    display: none;
+}
+nav > .menu_f .drop .down a:nth-child(1) {
+    margin-top: 15px;
+}
+nav > .menu_f .drop .down a{
+    margin-top: 8px;
+    height: 50px;
+    line-height: 50px;
+}
+nav > .menu_f .drop:hover .down {
+    display: block;
+}
+/*    @media 900px */
+@media only screen and (max-width: 900px) {
+    nav > .menu_f {
+        width: 750px
+    }
+    nav > .menu_f li a {
+        width: 140px;
+    }
+}
+/*    @media 800px */
+@media only screen and (max-width: 800px) {
+    nav > .menu_f {
+        width: 650px
+    }
+    nav > .menu_f > li > a {
+        width: 120px;
+    }
+}
+@keyframes navbar-after-icons {
+    0%    { margin-left: 0px;}
+    50%   { margin-left: 5px;}
+    100%  { margin-left: 0px;}
+}
+@-webkit-keyframes navbar-after-icons {
+    0%    { margin-left: 0px;}
+    50%   { margin-left: 5px;}
+    100%  { margin-left: 0px;}
+}
+.mobil-navicon {
+    width: 100%;
+    height: 70px;
+    background: rgba(193, 193, 193, 0.34);
+    position: absolute;
+    bottom: 0;
+    filter: blur(2px);
+    display: none;
+}
+.icon-mobil {
+    width: 400px;
+    height: 60px;
+    list-style: none;
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icon-mobil > li {
+    float: left;
+}
+.icon-mobil > li > a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    font-size: 2em;
+    margin: 15px;
+    color: white;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    transition: .3s ease-in-out;
+}
+.icon-mobil > li > a:hover {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 1.5em;
+}
+.icon-mobil > li > .fa { background: #3B5998;}
+.icon-mobil > li > .tw { background: #1DA1F2;}
+.icon-mobil > li > .yo { background: #E62117;}
+.icon-mobil > li > .in { background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);}
+.icon-mobil > li > .dr { background: #C32361;}
+/*    @media 650px */
+@media only screen and (max-width: 690px) {
+    nav {
+        width: 100%;
+        height: 100%;
+        background: url('Rectangle%2034.png');
+        background-size: cover;
+        position: fixed;
+        
+    }
+    nav > .menu_f {
+        width: 100%;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50% ,-20%);
+    }
+    nav > .menu_f li{
+        width: 100%;
+    }
+    nav > .menu_f li  a {
+        width: 100%;
+        background: none;
+        border-radius: 0px;
+        border: none;
+        color: white;
+    }
+    nav > .menu_f li a:after {
+        content: '\f10b';
+        font-family: "Ionicons";
+        position: absolute;
+        left: 90%;
+        opacity: 0;
+    }
+    nav > .menu_f > li a:hover {
+        background: none;
+        color: white;
+    }
+    nav > .menu_f > .drop > .down {
+        width: 100%;
+    }
+    nav > .menu_f li a:hover {
+        background: none;
+        color: white;
+    }
+    nav > .menu_f li a:hover:after {
+        animation: navbar-after-icons .5s linear 1;
+        -webkit-animation: navbar-after-icons .5s linear 1;
+        opacity: 1;
+    }
+    nav > .menu_f > .drop > a:after{
+        content: '';
+    }
+    .icon-mobil {
+        display: block;
+    }
+    .mobil-navicon {
+        display: block;
+    }
+}
+@media only screen and (max-width: 410px) {
+    .icon-mobil {
+        width: 300px;
+    }
+    .icon-mobil > li > a {
+        margin: 5px;
+    }
+}
