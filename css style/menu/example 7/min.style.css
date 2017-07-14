@@ -119,6 +119,7 @@ nav > .menu_f .drop:hover .down {
     bottom: 7%;
     left: 50%;
     transform: translateX(-50%);
+    display: none;
 }
 .icon-mobil > li {
     float: left;
