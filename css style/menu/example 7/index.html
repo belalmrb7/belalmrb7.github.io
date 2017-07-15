@@ -7,10 +7,23 @@
     <link rel="stylesheet" type="text/css" href="min.style.css">
     <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.navbar_bar').click(function(){
+                $('.menu').addClass('active')
+            })
+            $('.navbar_bar-close').click(function(){
+                $('.menu').removeClass('active')
+            })
+        })
+    </script>
 </head>
 <body>
     <div class="container">
+        <div class="navbar_bar"><i class="ion-navicon-round"></i></div>
         <nav class="menu">
+            <div class="navbar_bar-close"><i class="ion-close-round"></i></div>
             <ul class="menu_f">
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">Wörterbuch</a></li>

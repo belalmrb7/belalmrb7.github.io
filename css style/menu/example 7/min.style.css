@@ -16,6 +16,7 @@ a {
     height: 100vh;
     background: url('bg.png');
     background-size: cover;
+/*    overflow: hidden;*/
 }
 nav {
     width: 100%;
@@ -23,6 +24,27 @@ nav {
 /*    background: rgba(0, 0, 0, 0.29);*/
     font-family: 'Raleway', sans-serif;
     position: absolute;
+    transition: .5s ease-in-out;
+}
+.menu.active {
+    opacity: 1;
+    display: block;
+    animation: menu-animaiton .5s ease-in-out both;
+    -webkit-animation: menu-animaiton .5s ease-in-out both;
+}
+@keyframes menu-animaiton {
+    0% { opacity: 0;}
+    40% { opacity: .3;}
+    60% { opacity: .7;}
+    80% { opacity: .9;}
+    100% { opacity: 1;}
+}
+@-webkit-keyframes menu-animaiton {
+    0% { opacity: 0;}
+    40% { opacity: .3;}
+    60% { opacity: .7;}
+    80% { opacity: .9;}
+    100% { opacity: 1;}
 }
 nav > .menu_f {
     list-style: none;
@@ -120,6 +142,15 @@ nav > .menu_f .drop:hover .down {
     left: 50%;
     transform: translateX(-50%);
     display: none;
+    animation: icon-animation-menu .5s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
+}
+@keyframes icon-animation-menu {
+    0% { bottom: -20%;}
+    100% { bottom: 7%;}
+}
+@-webkit-keyframes icon-animation-menu {
+    0% { bottom: -20%;}
+    100% { bottom: 7%;}
 }
 .icon-mobil > li {
     float: left;
@@ -148,6 +179,40 @@ nav > .menu_f .drop:hover .down {
 .icon-mobil > li > .yo { background: #E62117;}
 .icon-mobil > li > .in { background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);}
 .icon-mobil > li > .dr { background: #C32361;}
+
+.navbar_bar{
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    display: none;
+}
+.close-item {
+    width: 50px;
+    height: 50px;
+    background: white;
+    display: none;
+}
+.navbar_bar-close {
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    display: none;
+}
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+@keyframes animation_menu_f {
+    0% { top: -60%;}
+    100% { top: 20%;}
+}
+@-webkit-keyframes animation_menu_f {
+    0% { top: -60%;}
+    100% { top: 20%;}
+}
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 /*    @media 650px */
 @media only screen and (max-width: 690px) {
     nav {
@@ -156,13 +221,15 @@ nav > .menu_f .drop:hover .down {
         background: url('Rectangle%2034.png');
         background-size: cover;
         position: fixed;
-        
+        opacity: 0;
+        display: none;
     }
     nav > .menu_f {
         width: 100%;
         top: 20%;
         left: 50%;
-        transform: translate(-50% ,-20%);
+        transform: translate(-50% ,-20%); 
+        animation: animation_menu_f .8s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
     }
     nav > .menu_f li{
         width: 100%;
@@ -197,8 +264,8 @@ nav > .menu_f .drop:hover .down {
         -webkit-animation: navbar-after-icons .5s linear 1;
         opacity: 1;
     }
-    nav > .menu_f > .drop > a:after{
-        content: '';
+    nav > .menu_f > .drop {
+        display: none;
     }
     .icon-mobil {
         display: block;
@@ -206,6 +273,8 @@ nav > .menu_f .drop:hover .down {
     .mobil-navicon {
         display: block;
     }
+    .navbar_bar { display: block;}
+    .navbar_bar-close { display: block;}
 }
 @media only screen and (max-width: 410px) {
     .icon-mobil {
