@@ -33,3 +33,231 @@ html, body {
     background: #ccc;
     margin: 20px auto;
 }
+.cover > .image_box {
+    width: 350px;
+    height: 350px;
+    background: url('Rectangle.png');
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.icon_box_a {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%) scale(3);
+    border-radius: 4px;
+    transition: .5s ease-in-out; 
+    overflow: hidden;
+}
+.cover:hover .icon_box_a {
+    transform: translate(-50% , -50%) scale(1);
+    background: rgba(255, 255, 255, 0.2);
+}
+.icon_box_a .icon_a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+.icon_box_a .inst_a {
+    background: #9636BB;
+    left: 0;
+    top: 0;
+}
+.icon_box_a .face_a {
+    background: #3B5998;
+    right: 0;
+    top: 0;
+}
+.icon_box_a .twit_a {
+    background: #0084B4;
+    right: 0;
+    bottom: 0;
+}
+.icon_box_a .yout_a {
+    background: #FE0000;
+    left: 0;
+    bottom: 0;
+}
+/* -=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=- */
+/* -=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=- */
+/* -=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=- */
+.icon_b_face {
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    background: #3B5998;
+    display: block;
+    transition: width .3s ease-in-out, height .5s ease-in-out;
+}
+.image_box:hover .icon_b_face {
+    width: 230px;
+    height: 60px;
+}
+.icon_b_yout {
+    width: 0px;
+    height: 0px;
+    background: #FE0000;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width .3s ease-in-out, height .5s ease-in-out;
+}
+.image_box:hover .icon_b_yout {
+    width: 230px;
+    height: 60px;
+}
+.icon_b_twit {
+    width: 0px;
+    height: 0px;
+    background: #0084B4;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    transition: width .3s ease-in-out, height .5s ease-in-out;
+}
+.image_box:hover .icon_b_twit {
+    width: 60px;
+    height: 230px;
+}
+.icon_b_inst {
+    width: 0px;
+    height: 0px;
+    background: #9636BB;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    transition: width .3s ease-in-out, height .5s ease-in-out;
+}
+.image_box:hover .icon_b_inst {
+    width: 60px;
+    height: 230px;
+}
+/* -=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=- */
+/* -=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=- */
+/* -=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=- */
+.icon_box_c {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 4px;
+    display: none;
+}
+.image_box:hover .icon_box_c {
+    display: block;
+}
+.icon_box_c:before {
+    content: '';
+    width: 2px;
+    height: 128px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%) rotate(45deg);
+    animation: animation_icon_box_c_before 1s ease-in-out both;
+}
+.icon_box_c:after {
+    content: '';
+    width: 2px;
+    height: 128px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%) rotate(-45deg);
+    animation: animation_icon_box_c_after 1s ease-in-out both;
+}
+@keyframes animation_icon_box_c_after {
+    0% {
+        transform: translate(-50% , -50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50% , -50%) rotate(45deg);
+    }
+    100% {
+        transform: translate(-50% , -50%) rotate(-45deg);
+    }
+}
+@keyframes animation_icon_box_c_before {
+    0% {
+        transform: translate(-50% , -50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50% , -50%) rotate(45deg);
+    }
+    100% {
+        transform: translate(-50% , -50%) rotate(45deg);
+    }
+}
+.icon_c {
+    width: 25px;
+    height: 25px;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    animation: animation_icon_c 1s ease-in-out both;
+    transition: .2s ease-in;
+}
+.icon_c:hover {
+    width: 35px;
+    height: 35px;
+    box-shadow: 0px 2px 6px -1px #4a4a4a;
+}
+.face_c {
+    background: #3B5998;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50% , -25%);
+}
+.inst_c {
+    background: #9636BB;
+    left: 25%;
+    top: 50%;
+    transform: translate(-25% , -50%);
+}
+.yout_c {
+    background: #FE0000;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50% , -75%);
+}
+.twit_c {
+    background: #0084B4;
+    left: 75%;
+    top: 50%;
+    transform: translate(-75% , -50%);
+}
+@keyframes animation_icon_c {
+    0% {
+        opacity: 0;
+        border-radius: 0;
+    }
+    50% {
+        opacity: .5;
+        border-radius: 30%;
+    }
+    100% {
+        opacity: 1;
+        border-radius: 50%;
+    }
+}
+/* -=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=- */
+/* -=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=- */
+/* -=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=- */
