@@ -326,5 +326,7 @@ html, body {
 @media only screen and (max-width: 370px) {
     .logo {
         /*display: none;*/
+        
+        left: 58%;
     }
 }
