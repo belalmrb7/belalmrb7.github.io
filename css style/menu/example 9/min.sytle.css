@@ -13,7 +13,7 @@ html, body {
     background: #F6F6F6;
     padding-bottom: 5px;
     padding-top: 5px;
-    position: absolute;
+    position: relative;
 }
 .menu > ul {
     list-style: none;
@@ -294,11 +294,42 @@ html, body {
 /*    display: none*/
     cursor: pointer;
 }
-
-
-.menu.active {
-/*    display: block;*/
+.menu_mb {
+    width: 70%;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #04ff92 0%, #00ff3c 100%);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: .3s ease;
+}
+.menu_mb > .navbar_mb_close {
+    width: 42.7%;
+    height: 100vh;
+    background: none;
+    left: 100%;
+    position: absolute;
+    cursor: pointer;
+}
+.menu_mb > .logo_mb {
+    width: 100%;
+    height: 30vh;
     background: red;
+}
+.menu_mb > a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Oxygen', sans-serif;
+    widows: 100%;
+    height: 10vh;
+    background: #404040;
+    padding-left: 15px;
+    line-height: 10vh;
+}
+.menu_mb.active {
+    left: 0;
 }
 @media only screen and (max-width: 1350px) {
     .menu > ul {
@@ -325,8 +356,7 @@ html, body {
 }
 @media only screen and (max-width: 370px) {
     .logo {
-        /*display: none;*/
-        
+/*        display: none;*/
         left: 58%;
     }
 }
