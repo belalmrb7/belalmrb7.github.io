@@ -599,11 +599,11 @@ html, body {
 }
 @media only screen and (max-width: 550px){
     .menu_mb { width: 45%;}
-    .navbar_mb_close.active { width: 120%; background :red; }
+    .navbar_mb_close.active { width: 120%; /*background :red;*/ }
 }
 @media only screen and (max-width: 450px){
     .menu_mb { width: 60%;}
-    .navbar_mb_close.active { width: 66%;  background :red; }
+    .navbar_mb_close.active { width: 66%; /* background :red; */}
 }
 @media only screen and (max-width: 320px){
     .logo {
