@@ -494,8 +494,8 @@ html, body {
 }
 .menu_mb > .navbar_mb_close {
     position: absolute;
-    top: 2%;
-    left: 20%;
+    top: 3%;
+    left: 10%;
     cursor: pointer;
 /*    background: rgba(0, 0, 0, 0.38);*/
     color: white;
