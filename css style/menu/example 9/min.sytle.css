@@ -482,7 +482,7 @@ html, body {
     display: none;
 }
 .menu_mb {
-    width: 70%;
+    width: 300px;
     height: 100vh;
     background: linear-gradient(to bottom right, #04ff92 0%, #00ff3c 100%);
     position: absolute;
@@ -499,16 +499,17 @@ html, body {
     left: 100%;
     position: absolute;
     cursor: pointer;
+/*    background: red;*/
  }
 .menu_mb > .logo_mb {
     width: 100%;
     height: 30vh;
-/*    background: red;*/
+    background: red;
     position: relative;
 }
 .menu_mb > .logo_mb > .cover_logo_mb{
-    width: 50%;
-    height: 58%;
+    width: 150px;
+    height: 150px;
     background: rgba(255, 255, 255, 0.54);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -579,37 +580,37 @@ html, body {
         transform: translate(-80%, -50%);
     }
     .navbar_mb { display: block;}
-    .menu_mb { width: 20%;}
+/*    .menu_mb { width: 20%;}*/
     .menu_mb > .navbar_mb_close { width: 80%;}
     .navbar_mb_close.active { width: 400%;/* background :red; */}
 }
 @media only screen and (max-width: 1000px) {
     .btn-border { display: none;}
     .btn-background  { display: none;}
-    .menu_mb { width: 25%}
+/*    .menu_mb { width: 25%}*/
     .navbar_mb_close.active { width: 300%; /* background :red; */}
 }
 @media only screen and (max-width: 850px){
-    .menu_mb { width: 30%;}
+/*    .menu_mb { width: 30%;}*/
     .navbar_mb_close.active { width: 233%; /* background :red; */}
 }
 @media only screen and (max-width: 700px){
-    .menu_mb { width: 35%;}
+/*    .menu_mb { width: 35%;}*/
     .navbar_mb_close.active { width: 185%; /* background :red; */}
 }
 @media only screen and (max-width: 550px){
-    .menu_mb { width: 45%;}
+/*    .menu_mb { width: 45%;}*/
     .navbar_mb_close.active { width: 120%; /*background :red;*/ }
 }
 @media only screen and (max-width: 450px){
-    .menu_mb { width: 60%;}
+/*    .menu_mb { width: 60%;}*/
     .navbar_mb_close.active { width: 66%; /* background :red; */}
 }
 @media only screen and (max-width: 320px){
     .logo {
         display: none;
     }
-    .menu_mb { width: 70%;}
+/*    .menu_mb { width: 70%;}*/
     .navbar_mb_close.active { width: 20%; /* background :red; */}
 }
 @media only screen and (max-width: 370px) {
