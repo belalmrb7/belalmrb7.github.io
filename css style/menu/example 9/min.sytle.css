@@ -493,18 +493,19 @@ html, body {
     transition: .5s ease;
 }
 .menu_mb > .navbar_mb_close {
-    width: 42.7%;
-    height: 100vh;
-    background: none;
-    left: 100%;
     position: absolute;
+    top: 2%;
+    left: 20%;
     cursor: pointer;
-/*    background: red;*/
+/*    background: rgba(0, 0, 0, 0.38);*/
+    color: white;
+    z-index: 5;
+    font-size: 1.5em;
  }
 .menu_mb > .logo_mb {
     width: 100%;
     height: 30vh;
-    background: red;
+/*    background: red;*/
     position: relative;
 }
 .menu_mb > .logo_mb > .cover_logo_mb{
@@ -581,37 +582,37 @@ html, body {
     }
     .navbar_mb { display: block;}
 /*    .menu_mb { width: 20%;}*/
-    .menu_mb > .navbar_mb_close { width: 80%;}
-    .navbar_mb_close.active { width: 400%;/* background :red; */}
+/*    .menu_mb > .navbar_mb_close { width: 80%;}*/
+/*    .navbar_mb_close.active { width: 100%; background :red; }*/
 }
 @media only screen and (max-width: 1000px) {
     .btn-border { display: none;}
     .btn-background  { display: none;}
 /*    .menu_mb { width: 25%}*/
-    .navbar_mb_close.active { width: 300%; /* background :red; */}
+/*    .navbar_mb_close.active { width: 300%;  background :red; }*/
 }
 @media only screen and (max-width: 850px){
 /*    .menu_mb { width: 30%;}*/
-    .navbar_mb_close.active { width: 233%; /* background :red; */}
+/*    .navbar_mb_close.active { width: 233%;  background :red; }*/
 }
 @media only screen and (max-width: 700px){
 /*    .menu_mb { width: 35%;}*/
-    .navbar_mb_close.active { width: 185%; /* background :red; */}
+/*    .navbar_mb_close.active { width: 185%;  background :red; }*/
 }
 @media only screen and (max-width: 550px){
 /*    .menu_mb { width: 45%;}*/
-    .navbar_mb_close.active { width: 120%; /*background :red;*/ }
+/*    .navbar_mb_close.active { width: 120%; background :red; }*/
 }
 @media only screen and (max-width: 450px){
 /*    .menu_mb { width: 60%;}*/
-    .navbar_mb_close.active { width: 66%; /* background :red; */}
+/*    .navbar_mb_close.active { width: 66%;  background :red; }*/
 }
 @media only screen and (max-width: 320px){
     .logo {
         display: none;
     }
 /*    .menu_mb { width: 70%;}*/
-    .navbar_mb_close.active { width: 20%; /* background :red; */}
+/*    .navbar_mb_close.active { width: 20%;  background :red; }*/
 }
 @media only screen and (max-width: 370px) {
     .logo { left: 58%;}
